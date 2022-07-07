@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  background-color: white;
+}
+/*This the first "Sign Up" heading CSS*/
+.Head {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(129, 29, 131);
+  font-family: "Lato", sans-serif;
+}
+/*This the second "Create a new Account" heading CSS*/
+.Head-two {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Lato", sans-serif;
+}
+/*The form table input*/
+.form {
+  margin: 0 auto;
+  width: 230px;
+}
+#input {
+  margin-top: 25px;
+  border-radius: 7px;
+  background-color: rgb(240, 241, 241);
+  width: 230px;
+  padding: 5px;
+  border: none;
+}
+div {
+  margin: 40 px 20px;
+}
+/*The button CSS*/
+.button {
+  margin: auto;
+  display: block;
+}
+/*The "Sign-Up with" line*/
+p {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -12px;
+  padding: 0 10px;
+  background-color: white;
+  width: fit-content;
+  font-family: "Lato", sans-serif;
+}
+.button {
+  border-radius: 9px;
+  width: 230px;
+  padding: 10px;
+  border: none;
+  background-color: purple;
+  font-family: "Lato", sans-serif;
+  font-size: 90%;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(199, 7, 208, 1) 1%,
+    rgba(194, 7, 203, 1) 27%,
+    rgba(167, 73, 171, 1) 67%,
+    rgba(206, 126, 209, 1) 100%
+  );
+}
+.button:hover {
+  border-radius: 30px;
+}
+/*The icon "google and facebook"CSS*/
+.icon {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  margin-top: 16px;
+}
+.icon-one {
+  margin-left: 10px;
+}
+.icon-two {
+  margin-left: 25px;
+}
+/*The "sign Up with" line*/
+.line {
+  margin-top: 12px;
+}
+.down-text {
+  margin-top: 16px;
+}
+.link {
+  color: purple;
+  font-family: "Lato", sans-serif;
+}
+@media screen and (max-width: 640px) {
+  body {
+    background-color: white;
+  }
+
+  .Head {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(129, 29, 131);
+    font-family: "Lato", sans-serif;
+  }
+  .Head-two {
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Lato", sans-serif;
+  }
+  .form {
+    margin: 0 auto;
+    width: 230px;
+}
+#input {
+    margin-top: 25px;
+    border-radius: 7px;
+    background-color: rgb(240, 241, 241);
+    width: 230px;
+    padding: 5px;
+    border: none;
+  }
+  div {
+    margin: 40 px 20px;
+  }
+  .button {
+    margin: auto;
+    display: block;
+  }
+
+  p {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: -12px;
+    padding: 0 10px;
+    background-color: white;
+    width: fit-content;
+    font-family: "Lato", sans-serif;
+  }
+
+  .button {
+    border-radius: 9px;
+    width: 230px;
+    padding: 10px;
+    border: none;
+    background-color: purple;
+    font-family: "Lato", sans-serif;
+    font-size: 90%;
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgba(199, 7, 208, 1) 1%,
+      rgba(194, 7, 203, 1) 27%,
+      rgba(167, 73, 171, 1) 67%,
+      rgba(206, 126, 209, 1) 100%
+    );
+  }
+  .button:hover {
+    border-radius: 30px;
+  }
+  
+  .icon {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    margin-top: 16px;
+  }
+  .icon-one {
+    margin-left: 10px;
+  }
+  .icon-two {
+    margin-left: 25px;
+  }
+  /*The "sign Up with" line*/
+  .line {
+    margin-top: 12px;
+  }
+  .down-text {
+    margin-top: 16px;
+  }
+  .link {
+    color: purple;
+    font-family: "Lato", sans-serif;
+  }
+
+
+
+
+
+
+}
